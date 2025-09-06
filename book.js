@@ -35,16 +35,7 @@ for (let i = 0; i < myLibrary.length; i++) {
 
   const container = document.querySelector('.container');
   
-/*
-myLibrary.forEach(book => {
-    // create a div for each book
-    const bookDiv = document.createElement('div');
-    bookDiv.classList.add('book');
-    bookDiv.textContent = book.info();  // use the info() method
-  
-    container.appendChild(bookDiv);
-  });
-  */
+
 
   const tableBody = document.querySelector("#mylibrary tbody");
 
@@ -72,5 +63,5 @@ myLibrary.forEach(book => {
 
   });
 
-
+  
   
